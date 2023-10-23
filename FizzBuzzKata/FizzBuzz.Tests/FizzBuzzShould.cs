@@ -18,5 +18,11 @@ public class FizzBuzzShould
         Assert.AreEqual("Fizz", FizzBuzz.Convert(3));
 
     }
+    [TestMethod]
+    public void ConvertFiveToBuzz()
+    {
+        Assert.AreEqual("Buzz", FizzBuzz.Convert(5));
+
+    }
 
 }
