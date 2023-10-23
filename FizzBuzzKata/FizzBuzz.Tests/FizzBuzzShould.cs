@@ -33,5 +33,12 @@ public class FizzBuzzShould
         Assert.AreEqual("Buzz", FizzBuzz.Convert(10));
 
     }
+    [TestMethod]
+    public void ConvertMultipleOfThreeAndFiveToFizzBuzz()
+    {
+        Assert.AreEqual("FizzBuzz", FizzBuzz.Convert(15));
+        Assert.AreEqual("FizzBuzz", FizzBuzz.Convert(30));
+
+    }
 
 }
