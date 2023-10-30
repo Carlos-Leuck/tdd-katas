@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atm", "Atm\Atm.csproj", "{4446BA52-2020-40B4-867C-ADE8710E74FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atm.Tests", "Atm.Tests\Atm.Tests.csproj", "{9050CA4B-F4BC-4CB7-888C-F547FE347EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4446BA52-2020-40B4-867C-ADE8710E74FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4446BA52-2020-40B4-867C-ADE8710E74FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4446BA52-2020-40B4-867C-ADE8710E74FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4446BA52-2020-40B4-867C-ADE8710E74FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9050CA4B-F4BC-4CB7-888C-F547FE347EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9050CA4B-F4BC-4CB7-888C-F547FE347EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9050CA4B-F4BC-4CB7-888C-F547FE347EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9050CA4B-F4BC-4CB7-888C-F547FE347EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEBBCB47-4620-4B5D-A9C5-C9FC86088B9A}
+	EndGlobalSection
+EndGlobal
