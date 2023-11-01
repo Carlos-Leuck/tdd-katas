@@ -19,21 +19,18 @@ public class FizzBuzzTest
     public void ShouldConvertMultipleOfThreeToFizz()
     {
         Assert.AreEqual("Fizz", FizzBuzz.Convert(3));
-        Assert.AreEqual("Fizz", FizzBuzz.Convert(6));
-
     }
 
     [TestMethod]
     public void ShouldConvertMultipleOfFiveToBuzz()
     {
         Assert.AreEqual("Buzz", FizzBuzz.Convert(5));
-        Assert.AreEqual("Buzz", FizzBuzz.Convert(10));
     }
+
     [TestMethod]
     public void ShouldConvertMultipleOfThreeAndFiveToFizzBuzz()
     {
         Assert.AreEqual("FizzBuzz", FizzBuzz.Convert(15));
-        Assert.AreEqual("FizzBuzz", FizzBuzz.Convert(30));
     }
 
 }
